@@ -35,7 +35,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
         Animate.idle.Animation1.AnimationId = Animate.run.RunAnim.AnimationId
         Animate.idle.Animation2.AnimationId = Animate.run.RunAnim.AnimationId
         game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0, 0, 0)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.Humanoid.MoveDirection * 0.057
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.Humanoid.MoveDirection * 0.070
     else
         Animate.idle.Animation1.AnimationId = Idle1
         Animate.idle.Animation2.AnimationId = Idle2
